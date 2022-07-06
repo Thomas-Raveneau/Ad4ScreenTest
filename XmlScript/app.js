@@ -93,6 +93,7 @@ function generateCsv(generatedItems) {
             { id: 'imageSize', title: 'Image Size (Ko)' },
         ],
         encoding: 'utf8',
+        fieldDelimiter: ',',
         recordDelimiter: '\n'
     });
 
